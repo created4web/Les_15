@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Contactformulier">
+    <meta name="keywords" content="contact, contactformulier">
+    <meta name="author" content="created4web">
+    <link rel="stylesheet" href="css/stijl.css">
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="mijncv.html">Mijn CV</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+      <h1 id="contact">Contactformulier</h1>
+        <form action="index.html" method="post">
+          <input type="text" name="voornaam" placeholder="Voornaam" >
+          <input type="text" name="achternaam" placeholder="Achternaam" >
+          <input type="text" name="adres" placeholder="Adres" >
+          <input type="text" name="postcode" placeholder="Postcode" >
+          <input type="text" name="woonplaats" placeholder="Woonplaats" >
+          <input type="email" name="email" placeholder="Emailadres" >
+          <textarea name="bericht" placeholder="Bericht" maxlength="500"></textarea>
+          <div class="beveiliging">
+            Beveiligingsvraag: 10 + 5 =
+            <select>
+              <option>Antwoord beveiligingsvraag</option>
+              <option>91</option>
+              <option>8</option>
+              <option>15</option>
+              <option>75</option>
+            </select>
+          </div>
+          <input type="submit" name="verzenden" value="Verzenden">
+        </form>
+        <br>
+    <footer>Copyright 2022 <a href="http://www.created4web.nl">created4web</a></footer>
+  </body>
+</html>
